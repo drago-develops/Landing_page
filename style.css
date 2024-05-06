@@ -29,9 +29,10 @@ ul{
 }
 a, .right-header{
     text-decoration-line: none;
-    color: white;
+    color: #E5E7EB;
     padding: 8px;
     padding-right: 20px;
+    font-size: 18px;
 }
 .footer{
     display: flex;
@@ -43,14 +44,18 @@ a, .right-header{
 .hero{
     display: flex;
     direction: row;
-    margin: 0px 150px 0px 150px;
+    padding: 0px 150px 100px 150px;
+    background-color: #1f2937;
+    flex: 1 1 0%;
     
 }
 ul.right-header{
     padding-right: 150px;
 }
 .hero-left{
-
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;    
 }
 .hero-right{
     display: flex;
@@ -58,10 +63,33 @@ ul.right-header{
     align-items: center;
     background-color: grey;
     color: white;
+    flex: 1 1 0%;   
 }
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
+}
+#hero-main-text{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+#hero-secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    color: #F9FAF8;  
+    font-weight: bold; 
+}
+#info-txt{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
