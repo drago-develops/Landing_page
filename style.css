@@ -46,8 +46,8 @@ a, .right-header{
 .hero{
     display: flex;
     direction: row;
-    padding: 0px 150px 100px 150px;
-    /*height: 20%;*/ /*doesnt achieve desired outcome*/
+    justify-content: center;
+    padding: 0 150px 100px 150px;
     background-color: #1f2937;
     flex: 1 1 0%;
     
@@ -58,7 +58,7 @@ ul.right-header{
 .hero-left{
     display: flex;
     flex-direction: column;
-    flex: 1 1 0%;    
+    flex: 1 1 0%;   
 }
 .hero-right{
     display: flex;
@@ -147,7 +147,9 @@ button{
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
+    border-radius: 15px;
     color: #F9FAF8 ;
+    width: 813px;
     padding: 50px 100px 50px 100px;
     margin: 50px 0px 50px 0px;
 }
