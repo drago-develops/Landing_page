@@ -49,7 +49,7 @@ a, .right-header{
     justify-content: center;
     padding: 0 150px 100px 150px;
     background-color: #1f2937;
-    flex: 1 1 0%;
+    /*flex: 1 1 0%;*/
     
 }
 ul.right-header{
@@ -58,15 +58,17 @@ ul.right-header{
 .hero-left{
     display: flex;
     flex-direction: column;
-    flex: 1 1 0%;   
+    width: 496px;
+    /*flex: 1 1 0%;*/   
 }
 .hero-right{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 496px;
     background-color: grey;
     color: white;
-    flex: 1 1 0%;   
+    /*flex: 1 1 0%;*/   
 }
 .main{
     display: flex;
@@ -85,11 +87,12 @@ ul.right-header{
 }
 button{
     background-color: #3882f6;
-    border-radius: 25px;
+    border-radius: 10px;
     width: 100px;
     height: 30px;
     color: #F9FAF8;  
     font-weight: bold; 
+    border: none; 
 }
 #info-txt{
     font-size: 36px;
@@ -120,16 +123,13 @@ button{
     text-align: center;
 }
 .cont2{
-    background-color: #E5E7EB;
+    padding: 150px calc((100% - 813px) / 2);
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 100%;
-    padding-right: 100%;
-    
-       
+    justify-content: center;
+    background-color: #E5E7EB;     
 }
+
 #quote{
     font-size: 36px;
     font-style: italic;
